@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 #import communityfoumupdate  # Import your community page
-import recommendation #import recommendation page
+import pages.recommendation #import recommendation page
 
 # Tensorflow Model Prediction
 # Tensorflow Model Prediction
