@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import communityfoumupdate  # Import your community page
+#import communityfoumupdate  # Import your community page
 import recommendation #import recommendation page
 
 # Tensorflow Model Prediction
@@ -29,7 +29,6 @@ pages = {
     "Home": "🏠",
     "About": "ℹ️",
     "Disease Recognition": "🔬",
-    "Community": "💬",
     "Disease Recommendation": "🩺"
 }
 
@@ -171,8 +170,8 @@ elif app_mode == "Disease Recognition":
         st.progress(float(confidence) / 100)
         st.write(f"Accuracy Level: **{rating}**")
 
-elif app_mode == "Community":
-    communityfoumupdate.community_page()  # Call the community function
+#elif app_mode == "Community":
+    #communityfoumupdate.community_page()  # Call the community function
 elif app_mode == "Disease Recommendation":
     st.title("Disease Treatment Recommendation")
     disease = st.selectbox("Select Detected Disease:", [
