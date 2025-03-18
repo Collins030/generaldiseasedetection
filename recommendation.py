@@ -46,6 +46,7 @@ def get_recommendation(disease):
         "Apple___healthy": {
             "disease_image": "assets/apple_healthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "assets/apple_healthy.jpeg",
             "procedure": [
                 "Maintain proper watering and fertilization.",
                 "Regularly inspect plants for signs of disease.",
@@ -71,6 +72,7 @@ def get_recommendation(disease):
         "Potato___healthy": {
             "disease_image": "assets/potatohealthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "assets/potatohealthy.jpeg",
             "procedure": [
                 "Plant certified disease-free seed potatoes.",
                 "Implement proper crop rotation.",
@@ -374,7 +376,7 @@ def get_recommendation(disease):
         "Tomato___Late_blight": {
             "disease_image": "Tomato___Late_blight/Tomato___Late_blight.jpeg",
             "chemical": "Mancozeb or Metalaxyl",
-            "chemical_image": "assets/Mancozeb.jpg",
+            "chemical_image": "assets/Mancozeb.jpeg",
             "procedure": [
                 "Apply fungicide at early symptoms.",
                 "Ensure good airflow between plants.",
