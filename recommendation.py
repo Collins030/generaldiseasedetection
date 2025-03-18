@@ -5,7 +5,7 @@ from PIL import Image
 def get_recommendation(disease):
     recommendations = {
         "Apple___Apple_scab": {
-            "disease_image": "assets/Apple___Apple_scab.JPG",
+            "disease_image": "assets/Apple___Apple_scab.jpg",
             "chemical": "Captan or Myclobutanil",
             "chemical_image": "assets/Captan.jpeg",
             "procedure": [
