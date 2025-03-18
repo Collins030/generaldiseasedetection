@@ -28,7 +28,7 @@ def model_prediction(test_image):
 #myadded code
 #st.sidebar.title("Dashboard")
 # Load the image
-logo_path = "assets/logo/logo.JPEG"  # Update if needed
+logo_path = "assets/logo/logo.jpeg"  # Update if needed
 logo = Image.open(logo_path)
 
 
@@ -94,7 +94,7 @@ app_mode = st.session_state["page"]  # Use selected page for navigation
 # Main Page
 if app_mode == "Home":
     st.header("PLANT DISEASE RECOGNITION SYSTEM")
-    image_path = "D:/streamdataset/home_page.jpeg"
+    image_path = "home_page.jpeg"
     st.image(image_path, use_container_width=True)
     st.markdown("""Welcome to the Plant Disease Recognition System! 🌿🔍
 
