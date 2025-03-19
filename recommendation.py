@@ -379,7 +379,7 @@ def get_recommendation(disease):
             "healthy_image": "assets/Tomato___healthy.jpeg"
         },
         "Tomato___Late_blight": {
-            "disease_image": "Tomato___Late_blight/Tomato___Late_blight.jpeg",
+            "disease_image": "assets/Tomato___Late_blight.jpeg",
             "chemical": "Mancozeb or Metalaxyl",
             "chemical_image": "assets/Mancozeb.jpeg",
             "procedure": [
