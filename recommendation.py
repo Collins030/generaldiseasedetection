@@ -148,7 +148,7 @@ def get_recommendation(disease):
             "healthy_image": "assets/maize_healthy.jpeg"
         },
         "Corn_(maize)___Northern_Leaf_Blight": {
-            "disease_image": "assets/northernleafblight.jpeg",
+            "disease_image": "assets/Northernleafblight.jpeg",
             "chemical": "Azoxystrobin or Propiconazole",
             "chemical_image": "assets/propicanazole.jpeg",
             "procedure": [
