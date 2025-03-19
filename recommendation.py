@@ -433,7 +433,7 @@ def get_recommendation(disease):
         "Tomato___Target_Spot": {
             "disease_image": "assets/Tomato___Target_Spot.jpeg",
             "chemical": "Mancozeb or Copper-based fungicide",
-            "chemical_image": "assets/Mancozeb.jpg",
+            "chemical_image": "assets/Mancozeb.jpeg",
             "procedure": [
                 "Apply fungicide at early disease signs.",
                 "Remove infected leaves and destroy them.",
