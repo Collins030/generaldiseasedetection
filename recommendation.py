@@ -266,7 +266,7 @@ def get_recommendation(disease):
         "Pepper,_bell___Bacterial_spot": {
             "disease_image": "assets/Pepper,_bell___Bacterial_spot.jpeg",
             "chemical": "Copper-based bactericides or Streptomycin",
-            "chemical_image": "https://example.com/pepper_copper.jpg",
+            "chemical_image": "assets/copperfungicide.jpeg",
             "procedure": [
                 "Apply copper-based bactericide at early infection stages.",
                 "Remove infected leaves and avoid overhead irrigation.",
