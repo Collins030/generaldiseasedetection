@@ -43,26 +43,29 @@ def uploads_page():
     "Tomato Yellow Curl Virus 6": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus6.JPG"
     }
 
-    # Create columns dynamically
-    num_cols = len(sample_images)
-    cols = st.columns(num_cols)  # Create one column per image
+    max_cols = 3  # Set max images per row
+    image_items = list(sample_images.items())
 
-    for col, (name, url) in zip(cols, sample_images.items()):
-        response = requests.get(url)
+    # Loop to create rows
+    for i in range(0, len(image_items), max_cols):
+        cols = st.columns(max_cols)
+        for col, (name, url) in zip(cols, image_items[i:i + max_cols]):
+            response = requests.get(url)
 
-        if response.status_code == 200:
-            image_bytes = BytesIO(response.content)
+            if response.status_code == 200:
+                image_bytes = BytesIO(response.content)
 
-            with col:
-                st.image(image_bytes, caption=name, width=128)  # Show image
-                st.download_button(
-                    label=f"Download {name}",
-                    data=image_bytes.getvalue(),
-                    file_name=f"{name.replace(' ', '_')}.jpg",
-                    mime="image/jpeg"
-                )
-        else:
-            st.error(f"Failed to load {name}. Check the image URL.")
+                with col:
+                    st.image(image_bytes, caption=name, width=128)
+                    st.download_button(
+                        label="Download",
+                        data=image_bytes.getvalue(),
+                        file_name=f"{name.replace(' ', '_')}.jpg",
+                        mime="image/jpeg"
+                    )
+            else:
+                with col:
+                    st.error(f"Failed to load {name}")
 
 
 if __name__ == "__main__":
