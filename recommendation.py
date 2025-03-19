@@ -109,9 +109,9 @@ def get_recommendation(disease):
             "healthy_image": "assets/bluberryhealthy.jpeg"
         },
         "Cherry_(including_sour)___Powdery_mildew": {
-            "disease_image": "https://example.com/cherry_powdery_mildew.jpg",
+            "disease_image": "assets/Squash___Powdery_mildew.jpeg",
             "chemical": "Sulfur or Myclobutanil",
-            "chemical_image": "https://example.com/sulfur.jpg",
+            "chemical_image": "assets/sulfur.jpeg",
             "procedure": [
                 "Apply sulfur-based fungicide as soon as symptoms appear.",
                 "Ensure good air circulation around trees.",
@@ -119,7 +119,7 @@ def get_recommendation(disease):
                 "Repeat treatment as necessary."
             ],
             "expected_outcome": "Cherry trees free from powdery mildew.",
-            "healthy_image": "https://example.com/healthy_cherry.jpg"
+            "healthy_image": "assets/Powdery_mildew_chery.jpeg"
         },
         "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
             "disease_image": "assets/cercespora.jpeg",
