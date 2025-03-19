@@ -176,7 +176,7 @@ def get_recommendation(disease):
         "Grape___Black_rot": {
             "disease_image": "assets/grapeblackrot.jpeg",
             "chemical": "Mancozeb or Myclobutanil",
-            "chemical_image": "assets/Mancozeb.jpg",
+            "chemical_image": "assets/Mancozeb.jpeg",
             "procedure": [
                 "Apply fungicide at the first sign of infection.",
                 "Remove and destroy infected leaves and fruit.",
