@@ -446,6 +446,7 @@ def get_recommendation(disease):
         "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
             "disease_image": "assets/Tomato___Tomato_Yellow_Leaf_Curl_Virus.jpeg",
             "chemical": "No chemical treatment, manage whiteflies",
+            "chemical_image": "added/chemical1.jpg",
             "procedure": [
                 "Use reflective mulch to repel whiteflies.",
                 "Introduce natural predators like ladybugs.",
@@ -458,6 +459,7 @@ def get_recommendation(disease):
         "Tomato___Tomato_mosaic_virus": {
             "disease_image": "assets/Tomato___Tomato_mosaic_virus.jpeg",
             "chemical": "No chemical treatment, control aphids",
+            "chemical_image": "added/chemical1.jpg",
             "procedure": [
                 "Control aphids with insecticidal soap.",
                 "Sanitize hands and tools before handling plants.",
