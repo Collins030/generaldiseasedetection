@@ -121,6 +121,19 @@ def get_recommendation(disease):
             "expected_outcome": "Cherry trees free from powdery mildew.",
             "healthy_image": "assets/Powdery_mildew_chery.jpeg"
         },
+        "Cherry_(including_sour)___healthy": {
+            "disease_image": "assets/Squash___Powdery_mildew.jpeg",
+            "chemical": "No chemical needed",
+            "chemical_image": "added/chemical2.jpg",
+            "procedure": [
+                "Apply sulfur-based fungicide as soon as symptoms appear.",
+                "Ensure good air circulation around trees.",
+                "Prune affected branches.",
+                "Repeat treatment as necessary."
+            ],
+            "expected_outcome": "Cherry trees free from powdery mildew.",
+            "healthy_image": "assets/Powdery_mildew_chery.jpeg"
+        },
         "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
             "disease_image": "assets/cercespora.jpeg",
             "chemical": "Strobilurin or Triazole-based fungicides",
