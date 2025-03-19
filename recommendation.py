@@ -137,7 +137,7 @@ def get_recommendation(disease):
         "Corn_(maize)___Common_rust_": {
             "disease_image": "assets/commonrust.jpeg",
             "chemical": "Propiconazole or Strobilurin-based fungicides",
-            "chemical_image": "assets/propiconazole.jpeg",
+            "chemical_image": "assets/propicanazole.jpeg",
             "procedure": [
                 "Apply fungicide at the first signs of rust pustules.",
                 "Plant rust-resistant corn varieties.",
