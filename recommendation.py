@@ -150,7 +150,7 @@ def get_recommendation(disease):
         "Corn_(maize)___Northern_Leaf_Blight": {
             "disease_image": "assets/northernleafblight.jpeg",
             "chemical": "Azoxystrobin or Propiconazole",
-            "chemical_image": "assets/propiconazole.jpeg",
+            "chemical_image": "assets/propicanazole.jpeg",
             "procedure": [
                 "Apply fungicide at early disease onset.",
                 "Use resistant hybrids for planting.",
