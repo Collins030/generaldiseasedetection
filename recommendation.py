@@ -279,6 +279,7 @@ def get_recommendation(disease):
         "Pepper,_bell___healthy": {
             "disease_image": "assets/Pepper,_bell___healthy",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical1.jpg",
             "procedure": [
                 "Ensure proper fertilization and watering.",
                 "Monitor plants for early signs of disease.",
