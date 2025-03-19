@@ -9,9 +9,38 @@ def uploads_page():
 
     # Dictionary of sample images (Replace with actual URLs from your GitHub)
     sample_images = {
-        "Apple Cedar Rust": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleCedarRust1.JPG",
-        "Apple Scab 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleScab1.JPG",
-        "Potato Early Blight 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoEarlyBlight3.JPG",
+         "Apple Cedar Rust 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleCedarRust2.JPG",
+    "Apple Cedar Rust 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleCedarRust3.JPG",
+    "Apple Cedar Rust 4": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleCedarRust4.JPG",
+    "Apple Scab 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleScab1.JPG",
+    "Apple Scab 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleScab2.JPG",
+    "Apple Scab 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/AppleScab3.JPG",
+    "Corn Common Rust 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/CornCommonRust1.JPG",
+    "Corn Common Rust 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/CornCommonRust2.JPG",
+    "Corn Common Rust 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/CornCommonRust3.JPG",
+    "Potato Early Blight 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoEarlyBlight1.JPG",
+    "Potato Early Blight 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoEarlyBlight2.JPG",
+    "Potato Early Blight 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoEarlyBlight3.JPG",
+    "Potato Early Blight 4": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoEarlyBlight4.JPG",
+    "Potato Early Blight 5": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoEarlyBlight5.JPG",
+    "Potato Healthy 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoHealthy1.JPG",
+    "Potato Healthy 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/PotatoHealthy2.JPG",
+    "Tomato Early Blight 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoEarlyBlight1.JPG",
+    "Tomato Early Blight 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoEarlyBlight2.JPG",
+    "Tomato Early Blight 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoEarlyBlight3.JPG",
+    "Tomato Early Blight 4": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoEarlyBlight4.JPG",
+    "Tomato Early Blight 5": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoEarlyBlight5.JPG",
+    "Tomato Early Blight 6": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoEarlyBlight6.JPG",
+    "Tomato Healthy 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoHealthy1.JPG",
+    "Tomato Healthy 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoHealthy2.JPG",
+    "Tomato Healthy 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoHealthy3.JPG",
+    "Tomato Healthy 4": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoHealthy4.JPG",
+    "Tomato Yellow Curl Virus 1": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus1.JPG",
+    "Tomato Yellow Curl Virus 2": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus2.JPG",
+    "Tomato Yellow Curl Virus 3": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus3.JPG",
+    "Tomato Yellow Curl Virus 4": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus4.JPG",
+    "Tomato Yellow Curl Virus 5": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus5.JPG",
+    "Tomato Yellow Curl Virus 6": "https://raw.githubusercontent.com/Collins030/generaldiseasedetection/main/test/test/TomatoYellowCurlVirus6.JPG"
     }
 
     # Create columns dynamically
