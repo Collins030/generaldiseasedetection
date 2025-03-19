@@ -274,10 +274,10 @@ def get_recommendation(disease):
                 "Use resistant pepper varieties when available."
             ],
             "expected_outcome": "Bell pepper plants free from bacterial spot.",
-            "healthy_image": "https://example.com/healthy_pepper.jpg"
+            "healthy_image": "assets/Pepper,_bell___healthy.jpeg"
         },
         "Pepper,_bell___healthy": {
-            "disease_image": "assets/Pepper,_bell___healthy",
+            "disease_image": "assets/Pepper,_bell___healthy.jpeg",
             "chemical": "No treatment needed",
             "chemical_image": "added/chemical1.jpg",
             "procedure": [
