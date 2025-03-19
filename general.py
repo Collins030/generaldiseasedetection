@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import upcommunity
 #import communityfoumupdate  # Import your community page #I have commented it so as to avoid technicalities deploying it in streamlit
 import recommendation #import recommendation page
 import upload
@@ -94,7 +95,7 @@ app_mode = st.session_state["page"]  # Use selected page for navigation
 # Main Page
 if app_mode == "Home":
     st.header("PLANT DISEASE RECOGNITION SYSTEM")
-    image_path = "home_page.jpeg"
+    image_path = "background1.jpg"
     st.image(image_path, use_container_width=True)
     st.markdown("""Welcome to the Plant Disease Recognition System! 🌿🔍
 
@@ -202,6 +203,8 @@ elif app_mode == "Disease Recognition":
 
 #elif app_mode == "Community":
     #communityfoumupdate.community_page()  # Call the community function
+elif app_mode == "Community":
+    upcommunity.community_page()  # Call the community function
 elif app_mode == "Disease Recommendation":
     st.title("Disease Treatment Recommendation")
     disease = st.selectbox("Select Detected Disease:", [
@@ -225,18 +228,18 @@ elif app_mode == "Disease Recommendation":
 
     if data:
         st.subheader("Disease Overview")
-        st.image(data["disease_image"], caption=disease.replace("_", " "), use_column_width=True)
+        st.image(data["disease_image"], caption=disease.replace("_", " "), use_container_width=True)
 
         st.subheader("Recommended Treatment")
         st.write(f"**Chemical:** {data['chemical']}")
-        st.image(data["chemical_image"], caption=data['chemical'], use_column_width=True)
+        st.image(data["chemical_image"], caption=data['chemical'], use_container_width=True)
 
         st.subheader("Application Procedure")
         for step in data["procedure"]:
             st.write(f"- {step}")
 
         st.subheader("Expected Outcome")
-        st.image(data["healthy_image"], caption=data["expected_outcome"], use_column_width=True)
+        st.image(data["healthy_image"], caption=data["expected_outcome"], use_container_width=True)
     else:
         st.warning("No recommendation found for the selected disease. More will be added soon!")
 
