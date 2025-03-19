@@ -46,7 +46,7 @@ def get_recommendation(disease):
         "Apple___healthy": {
             "disease_image": "assets/apple_healthy.jpeg",
             "chemical": "No treatment needed",
-            "chemical_image": "assets/apple_healthy.jpeg",
+            "chemical_image": "added/chemical1.jpg",
             "procedure": [
                 "Maintain proper watering and fertilization.",
                 "Regularly inspect plants for signs of disease.",
@@ -72,7 +72,7 @@ def get_recommendation(disease):
         "Potato___healthy": {
             "disease_image": "assets/potatohealthy.jpeg",
             "chemical": "No treatment needed",
-            "chemical_image": "assets/potatohealthy.jpeg",
+            "chemical_image": "added/chemical1.jpg",
             "procedure": [
                 "Plant certified disease-free seed potatoes.",
                 "Implement proper crop rotation.",
@@ -98,6 +98,7 @@ def get_recommendation(disease):
         "Blueberry___healthy": {
             "disease_image": "assets/bluberryhealthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical2.jpg",
             "procedure": [
                 "Maintain well-drained soil.",
                 "Provide adequate sunlight.",
@@ -162,6 +163,7 @@ def get_recommendation(disease):
         "Corn_(maize)___healthy": {
             "disease_image": "assets/maize_healthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical2.jpg",
             "procedure": [
                 "Provide adequate nitrogen fertilization.",
                 "Rotate crops yearly to maintain soil health.",
@@ -213,6 +215,7 @@ def get_recommendation(disease):
         "Grape___healthy": {
             "disease_image": "assets/grape_healthy.jpgg",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical2.jpg",
             "procedure": [
                 "Ensure regular pruning for better air circulation.",
                 "Provide adequate watering and nutrient supply.",
@@ -288,6 +291,7 @@ def get_recommendation(disease):
         "Raspberry___healthy": {
             "disease_image": "assets/Raspberry___healthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical3.jpg",
             "procedure": [
                 "Ensure well-drained soil and proper watering.",
                 "Prune canes to improve air circulation.",
@@ -300,6 +304,7 @@ def get_recommendation(disease):
         "Soybean___healthy": {
             "disease_image": "assets/Soybean___healthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical3.jpg",
             "procedure": [
                 "Rotate crops to prevent disease buildup in the soil.",
                 "Ensure proper fertilization and irrigation.",
@@ -465,6 +470,7 @@ def get_recommendation(disease):
         "Tomato___healthy": {
             "disease_image": "assets/Tomato___healthy.jpeg",
             "chemical": "No treatment needed",
+            "chemical_image": "added/chemical3.jpg",
             "procedure": [
                 "Ensure proper soil nutrients and watering schedule.",
                 "Monitor for pests and diseases regularly.",
