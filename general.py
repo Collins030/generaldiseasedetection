@@ -109,10 +109,10 @@ if app_mode == "Home":
         This tool helps you identify plant diseases quickly and efficiently using AI-powered image recognition. 🚀
         
         ### 🌟 How to Get Started:
-        1️⃣ Navigate to the **Disease Recognition** page from the sidebar.
-        2️⃣ Upload an image of the plant leaf you want to analyze.
-        3️⃣ The system will process the image and provide a diagnosis.
-        4️⃣ You can also download sample images from the **Uploads** section and re-upload them for testing.
+        1️⃣ **Navigate to the Disease Recognition page** from the sidebar.  
+        2️⃣ **Upload an image** of the plant leaf you want to analyze.  
+        3️⃣ **The system will process** the image and provide a diagnosis.  
+        4️⃣ **Download sample images** from the **Uploads** section and re-upload them for testing. 
         
         🔄 *Future updates will include real-time testing of samples!* 
         
