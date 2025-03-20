@@ -241,7 +241,7 @@ def get_recommendation(disease):
         "Orange___Haunglongbing_(Citrus_greening)": {
             "disease_image": "assets/orangecitrus.jpeg",
             "chemical": "Oxytetracycline or Streptomycin",
-            "chemical_image": "https://example.com/oxytetracycline.jpg",
+            "chemical_image": "assets/Oxytetracycline1.jpeg",
             "procedure": [
                 "Remove and destroy infected trees to prevent spread.",
                 "Apply antibiotics as a foliar spray or trunk injection.",
