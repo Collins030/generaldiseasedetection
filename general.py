@@ -189,16 +189,18 @@ elif app_mode == "About":
     st.pyplot(fig)
 
 elif app_mode == "Disease Recognition":
-    st.header("Disease Recognition")
-    test_image = st.file_uploader("Choose an Image:")
-    if st.button("Show Image"):
+    st.header("🌿 Disease Recognition 🔍")
+    
+    test_image = st.file_uploader("📂 Choose an Image:")
+    
+    if st.button("🖼️ Show Image"):
         st.image(test_image, use_column_width=True)
-
-    if st.button("Predict"):
+    
+    if st.button("🤖 Predict"):
         st.snow()
-        st.write("Our Prediction")
+        st.write("### 🏆 Our Prediction:")
         result_index, confidence = model_prediction(test_image)
-
+    
         class_name = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
                       'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew',
                       'Cherry_(including_sour)___healthy', 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot',
@@ -213,26 +215,39 @@ elif app_mode == "Disease Recognition":
                       'Tomato___Septoria_leaf_spot', 'Tomato___Spider_mites Two-spotted_spider_mite',
                       'Tomato___Target_Spot', 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus',
                       'Tomato___healthy']
-
-        st.success(f"Model is Predicting it's a {class_name[result_index]}")
-
+    
+        st.success(f"🌱 Model Prediction: **{class_name[result_index]}**")
+    
         # Display accuracy percentage
-        st.write(f"Prediction Confidence: {confidence:.2f}%")
-
+        st.write(f"🎯 **Prediction Confidence:** {confidence:.2f}%")
+    
         # Display progress bar with accuracy rating
         rating = "Poor"
         if confidence > 90:
-            rating = "Excellent"
+            rating = "🌟 Excellent"
         elif confidence > 80:
-            rating = "Very Good"
+            rating = "✅ Very Good"
         elif confidence > 70:
-            rating = "Good"
+            rating = "👍 Good"
         elif confidence > 60:
-            rating = "Fair"
-
+            rating = "🟡 Fair"
+    
         st.progress(float(confidence) / 100)
-        st.write(f"Accuracy Level: **{rating}**")
-       
+        st.write(f"📊 **Accuracy Level:** {rating}")
+    
+    # Message for Uploads Navigation
+    st.markdown(
+        """
+        ## 📥 Download & Test Images Easily!  
+    
+        🔹 You can navigate to the **Uploads** section 📂 to **download sample images**.  
+        🔹 After downloading, return to the **Disease Recognition** page 📸 to **upload the image** and test the model.  
+    
+        🚀 *Try it now and see how well the model performs!*  
+        """, 
+        unsafe_allow_html=True
+    )
+
 
 #elif app_mode == "Community":
     #communityfoumupdate.community_page()  # Call the community function
