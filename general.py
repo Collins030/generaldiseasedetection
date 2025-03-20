@@ -190,6 +190,17 @@ elif app_mode == "About":
 
 elif app_mode == "Disease Recognition":
     st.header("Disease Recognition")
+     st.markdown(
+    """
+    ## 📥 Download & Test Images Easily!  
+
+    🔹 You can navigate to the **Uploads** section 📂 to **download sample images**.  
+    🔹 After downloading, return to the **Disease Recognition** page 📸 to **upload the image** and test the model.  
+
+    🚀 *Try it now and see how well the model performs!*  
+    """, 
+    unsafe_allow_html=True
+)
     test_image = st.file_uploader("Choose an Image:")
     if st.button("Show Image"):
         st.image(test_image, use_column_width=True)
@@ -232,18 +243,7 @@ elif app_mode == "Disease Recognition":
 
         st.progress(float(confidence) / 100)
         st.write(f"Accuracy Level: **{rating}**")
-        st.markdown(
-    """
-    ## 📥 Download & Test Images Easily!  
-
-    🔹 You can navigate to the **Uploads** section 📂 to **download sample images**.  
-    🔹 After downloading, return to the **Disease Recognition** page 📸 to **upload the image** and test the model.  
-
-    🚀 *Try it now and see how well the model performs!*  
-    """, 
-    unsafe_allow_html=True
-)
-
+       
 
 #elif app_mode == "Community":
     #communityfoumupdate.community_page()  # Call the community function
