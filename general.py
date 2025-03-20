@@ -195,7 +195,7 @@ elif app_mode == "Disease Recognition":
     test_image = st.file_uploader("📂 Choose an Image:")
     
     if st.button("🖼️ Show Image"):
-        st.image(test_image, use_column_width=True)
+        st.image(test_image, use_container_width=True)
     
     if st.button("🤖 Predict"):
         st.snow()
@@ -255,8 +255,16 @@ elif app_mode == "Disease Recognition":
 elif app_mode == "Community":
     upcommunity.community_page()  # Call the community function
 elif app_mode == "Disease Recommendation":
-    st.title("Disease Treatment Recommendation")
-    disease = st.selectbox("Select Detected Disease:", [
+    st.title("🌿 Disease Treatment Recommendation 💊")
+    
+    st.markdown("""
+    ### 🏥 **Select the Detected Disease to Get the Best Treatment Advice!**
+    
+    🔎 Choose a disease from the list below, and we'll provide you with expert recommendations on how to treat it.
+    
+    """)
+    
+    disease = st.selectbox("📋 **Select Detected Disease:**", [
         "Apple___Apple_scab", "Apple___Black_rot", "Apple___Cedar_apple_rust", "Apple___healthy",
         "Blueberry___healthy", "Cherry_(including_sour)___Powdery_mildew",
         "Cherry_(including_sour)___healthy", "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
@@ -276,21 +284,22 @@ elif app_mode == "Disease Recommendation":
     data = recommendation.get_recommendation(disease)  # Call the function with user selection
 
     if data:
-        st.subheader("Disease Overview")
+        st.subheader("📖 Disease Overview")
         st.image(data["disease_image"], caption=disease.replace("_", " "), use_container_width=True)
 
-        st.subheader("Recommended Treatment")
-        st.write(f"**Chemical:** {data['chemical']}")
+        st.subheader("💊 Recommended Treatment")
+        st.write(f"**🧪 Chemical Treatment:** {data['chemical']}")
         st.image(data["chemical_image"], caption=data['chemical'], use_container_width=True)
 
-        st.subheader("Application Procedure")
+        st.subheader("⚗️ Application Procedure")
         for step in data["procedure"]:
-            st.write(f"- {step}")
+            st.write(f"✔️ {step}")
 
-        st.subheader("Expected Outcome")
+        st.subheader("🌱 Expected Outcome")
         st.image(data["healthy_image"], caption=data["expected_outcome"], use_container_width=True)
     else:
-        st.warning("No recommendation found for the selected disease. More will be added soon!")
+        st.warning("⚠️ No recommendation found for the selected disease. More will be added soon! Stay tuned! 📢")
+
 
 elif app_mode == "Uploads":
     upload.uploads_page()  # Call the upload function
