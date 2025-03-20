@@ -99,7 +99,13 @@ if app_mode == "Home":
     st.image(image_path, use_container_width=True)
     st.markdown("""Welcome to the Plant Disease Recognition System! 🌿🔍
 
-    **Get Started:** Click on the **Disease Recognition** page in the sidebar to upload an image.
+    Get Started:Click on the Disease Recognition page in the sidebar to upload an image.
+    You can also take the uploaded samples from the uploads Download them then reupload them in the Disease Recognition tab.
+    Future changes will include direct test of te samples.
+    The model was trained with 38 classes covering the following type of disease:
+    Apple Apple scab, Apple Black rot, Apple Cedar apple rust, Apple healthy, Blueberry healthy, Cherry (including sour) Powdery mildew, Cherry (including sour) healthy, Corn (maize) Cercospora leaf spot Gray leaf spot, Corn (maize) Common rust, Corn (maize) Northern Leaf Blight, Corn (maize) healthy, Grape Black rot, Grape Esca (Black Measles), Grape Leaf blight (Isariopsis Leaf Spot), Grape healthy, Orange Haunglongbing (Citrus greening), Peach Bacterial spot, Peach healthy, Pepper bell Bacterial spot, Pepper bell healthy.
+
+   Potato Early blight, Potato Late blight, Potato healthy, Raspberry healthy, Soybean healthy, Squash Powdery mildew, Strawberry Leaf scorch, Strawberry healthy, Tomato Bacterial spot, Tomato Early blight, Tomato Late blight, Tomato Leaf Mold, Tomato Septoria leaf spot, Tomato Spider mites Two-spotted spider mite, Tomato Target Spot, Tomato Tomato Yellow Leaf Curl Virus, Tomato Tomato mosaic virus, Tomato healthy
     """)
 
 elif app_mode == "About":
