@@ -200,7 +200,7 @@ elif app_mode == "Disease Recognition":
     🚀 *Try it now and see how well the model performs!*  
     """, 
     unsafe_allow_html=True
-)
+     )
     test_image = st.file_uploader("Choose an Image:")
     if st.button("Show Image"):
         st.image(test_image, use_column_width=True)
