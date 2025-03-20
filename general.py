@@ -63,9 +63,10 @@ logo_base64 = image_to_base64(circular_logo)
 sidebar_html = f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{logo_base64}" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
-        <h3 style="margin: 0; font-size: 20px;">General Disease Detection</h3>
+        <h3 style="margin: 0; font-size: 20px;">🦠🌱 General Disease Detection 🔍</h3>
     </div>
 """
+
 
 # Display in Streamlit sidebar
 st.sidebar.markdown(sidebar_html, unsafe_allow_html=True)
