@@ -197,7 +197,7 @@ def get_recommendation(disease):
                 "Use resistant grape varieties if available."
             ],
             "expected_outcome": "Healthy grapevines with no black rot infection.",
-            "healthy_image": "assets/grape_healthy.jpg"
+            "healthy_image": "assets/grape_healthy.jpeg"
         },
         "Grape___Esca_(Black_Measles)": {
             "disease_image": "https://example.com/grape_esca.jpeg",
@@ -210,7 +210,7 @@ def get_recommendation(disease):
                 "Monitor vines regularly and ensure proper nutrition."
             ],
             "expected_outcome": "Vines free from Esca disease, ensuring better grape yield.",
-            "healthy_image": "assets/grape_healthy.jpg"
+            "healthy_image": "assets/grape_healthy.jpeg"
         },
         "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
             "disease_image": "https://example.com/grape_leaf_blight.jpg",
@@ -223,10 +223,10 @@ def get_recommendation(disease):
                 "Implement crop rotation to prevent reinfection."
             ],
             "expected_outcome": "Healthy grape leaves with no signs of blight.",
-            "healthy_image": "assets/grape_healthy.jpg"
+            "healthy_image": "assets/grape_healthy.jpeg"
         },
         "Grape___healthy": {
-            "disease_image": "assets/grape_healthy.jpgg",
+            "disease_image": "assets/grape_healthy.jpeg",
             "chemical": "No treatment needed",
             "chemical_image": "added/chemical2.jpg",
             "procedure": [
@@ -236,7 +236,7 @@ def get_recommendation(disease):
                 "Use mulch to retain soil moisture and suppress weeds."
             ],
             "expected_outcome": "Healthy grapevines with high-quality fruit production.",
-            "healthy_image": "assets/grape_healthy.jpg"
+            "healthy_image": "assets/grape_healthy.jpeg"
         },
         "Orange___Haunglongbing_(Citrus_greening)": {
             "disease_image": "assets/orangecitrus.jpeg",
