@@ -132,7 +132,7 @@ def get_recommendation(disease):
                 "Repeat treatment as necessary."
             ],
             "expected_outcome": "Cherry trees free from powdery mildew.",
-            "healthy_image": "assets/Powdery_mildew_chery.jpeg"
+            "healthy_image": "assets/cherry_healthy.jpeg"
         },
         "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
             "disease_image": "assets/cercespora.jpeg",
@@ -239,7 +239,7 @@ def get_recommendation(disease):
             "healthy_image": "assets/grape_healthy.jpg"
         },
         "Orange___Haunglongbing_(Citrus_greening)": {
-            "disease_image": "https://example.com/orangecitrus.jpeg",
+            "disease_image": "assets/orangecitrus.jpeg",
             "chemical": "Oxytetracycline or Streptomycin",
             "chemical_image": "https://example.com/oxytetracycline.jpg",
             "procedure": [
@@ -249,7 +249,7 @@ def get_recommendation(disease):
                 "Ensure balanced nutrition and proper irrigation."
             ],
             "expected_outcome": "Reduced spread of citrus greening and improved tree health.",
-            "healthy_image": "assets/healthy_orange.jpg"
+            "healthy_image": "assets/healthy_orange.jpeg"
         },
         "Peach___Bacterial_spot": {
             "disease_image": "assets/peachbactirialspot.jpeg",
